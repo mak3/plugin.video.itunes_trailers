@@ -1,135 +1,202 @@
-# XBMC Media Center language file
-# Addon Name: Apple iTunes Trailers
-# Addon id: plugin.video.itunes_trailers
-# Addon Provider: Tristan Fischer (sphere@dersphere.de)
+# Addon Name: Apple Trailers
+# Addon id: plugin.video.apple_trailers
+# Addon Provider: TV Addons
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Addons\n"
-"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"Project-Id-Version: TV Addons Addons\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"Language-Team: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#Context menu entries
-
-msgctxt "#30001"
-msgid "Download Trailer"
-msgstr ""
-
-msgctxt "#30002"
-msgid "[B]DOWNLOADED[/B]"
-msgstr ""
-
-msgctxt "#30003"
+msgctxt "#30000"
 msgid "Add to CouchPotato"
 msgstr ""
 
-msgctxt "#30004"
-msgid "[B]download in progress[/B]"
-msgstr ""
-
-msgctxt "#30005"
+msgctxt "#30001"
 msgid "Add to Trakt.tv"
 msgstr ""
 
-#empty strings from id 30006 to 30009
-#Settings
+msgctxt "#30002"
+msgid "Downloading: %s..."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Failed to create directory"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Failed to write file"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Download Complete: %s"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Error (%s) during download: %s"
+msgstr ""
+
+msgctxt "#30007"
+msgid "No Trailer Download Path is set"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Set It Now"
+msgstr ""
 
 msgctxt "#30010"
-msgid "Source"
+msgid "On ANY device, visit: %s"
 msgstr ""
 
 msgctxt "#30011"
-msgid "All"
+msgid "When prompted, enter code: %s"
 msgstr ""
 
 msgctxt "#30012"
-msgid "Most Recent"
+msgid "Code expires in: %s seconds"
 msgstr ""
 
 msgctxt "#30013"
-msgid "Most Popular"
+msgid "Trakt Account Authorization"
 msgstr ""
 
 msgctxt "#30014"
-msgid "Exclusive"
+msgid "Authorization was Rejected"
 msgstr ""
 
-#empty strings from id 30015 to 30019
+msgctxt "#30015"
+msgid "Trakt Authorization Complete"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Pick a list"
+msgstr ""
+
+msgctxt "#30017"
+msgid "No Lists exist for user: %s"
+msgstr ""
+
+msgctxt "#30018"
+msgid "No Matching Movie Found"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Pick a Movie"
+msgstr ""
 
 msgctxt "#30020"
-msgid "Movie Limit"
+msgid "%s added to %s"
 msgstr ""
 
 msgctxt "#30021"
-msgid "No Limit"
+msgid "Downloaded"
 msgstr ""
 
-msgctxt "#30022"
-msgid "First 50"
+msgctxt "#30500"
+msgid "Trailer Source"
 msgstr ""
 
-msgctxt "#30023"
-msgid "First 100"
+msgctxt "#30501"
+msgid "All"
 msgstr ""
 
-#empty strings from id 30024 to 30029
-
-msgctxt "#30030"
-msgid "Trailer quality (Stream)"
+msgctxt "#30502"
+msgid "Exclusive"
 msgstr ""
 
-msgctxt "#30031"
-msgid "HD480p"
+msgctxt "#30503"
+msgid "Most Popular"
 msgstr ""
 
-msgctxt "#30032"
-msgid "HD720p"
+msgctxt "#30504"
+msgid "Most Recent"
 msgstr ""
 
-msgctxt "#30033"
-msgid "HD1080p"
+msgctxt "#30505"
+msgid "Movies Limit (0 = No Limit)"
 msgstr ""
 
-#empty strings from id 30034 to 30039
-
-msgctxt "#30040"
-msgid "Trailer quality (Download)"
+msgctxt "#30506"
+msgid "Max Stream Quality"
 msgstr ""
 
-msgctxt "#30041"
-msgid "Same as Stream"
+msgctxt "#30507"
+msgid "Max Download Quality"
 msgstr ""
 
-#empty strings from id 30042 to 30049
-
-msgctxt "#30050"
-msgid "Trailer download path"
+msgctxt "#30508"
+msgid "Trailer Download Path"
 msgstr ""
 
-msgctxt "#30051"
-msgid "Force Trailers ViewMode to Thumbnail"
+msgctxt "#30509"
+msgid "Show Download Progress"
 msgstr ""
 
-#empty strings from id 30052 to 30099
-#Network Error
-
-msgctxt "#30100"
-msgid "Network Error"
+msgctxt "#30510"
+msgid "Off"
 msgstr ""
 
-#OK Dialogs
-
-msgctxt "#30101"
-msgid "No download path"
+msgctxt "#30511"
+msgid "Window"
 msgstr ""
 
-msgctxt "#30102"
-msgid "Do you want to you set it now?"
+msgctxt "#30512"
+msgid "Background"
+msgstr ""
+
+msgctxt "#30513"
+msgid "Trailers View ID"
+msgstr ""
+
+msgctxt "#30514"
+msgid "Movies Cache Duration"
+msgstr ""
+
+msgctxt "#30515"
+msgid "24 Hours"
+msgstr ""
+
+msgctxt "#30516"
+msgid "12 Hours"
+msgstr ""
+
+msgctxt "#30517"
+msgid "8 Hours"
+msgstr ""
+
+msgctxt "#30518"
+msgid "How do I authorize this addon to access my trakt.tv account?"
+msgstr ""
+
+msgctxt "#30519"
+msgid "Authorized Trakt User"
+msgstr ""
+
+msgctxt "#30520"
+msgid "Use HTTPS for Trakt"
+msgstr ""
+
+msgctxt "#30521"
+msgid "Trakt Timeout (seconds) (0=No Limit)"
+msgstr ""
+
+msgctxt "#30522"
+msgid "Default Trakt List"
+msgstr ""
+
+msgctxt "#30523"
+msgid "Trailers"
+msgstr ""
+
+msgctxt "#30524"
+msgid "Download"
 msgstr ""
